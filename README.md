@@ -21,7 +21,7 @@ The source data resides in Azure Data Lake and needs to be processed in a NYC da
 
 ## Project Environment
 
-1- Azure Data Lake Gen2
-2- Azure SQL DB
-3- Azure Data Factory
-4- Azure Synapse Analytics
+  - Azure Data Lake Gen2
+  - Azure SQL DB
+  - Azure Data Factory
+  - Azure Synapse Analytics
