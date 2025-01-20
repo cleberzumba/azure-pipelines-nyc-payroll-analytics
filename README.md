@@ -21,6 +21,8 @@ The source data resides in Azure Data Lake and needs to be processed in a NYC da
 
 ## Project Environment
 
+In this project, I will be doing the work in the Azure Portal, using various Azure features including:
+
   - Azure Data Lake Gen2
   - Azure SQL DB
   - Azure Data Factory
