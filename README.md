@@ -17,3 +17,8 @@ As a Data Engineer, I need to create high-quality data pipelines that are dynami
 The source data resides in Azure Data Lake and needs to be processed in a NYC data warehouse. The source datasets consist of CSV files with employee master data and monthly payroll data entered by various city agencies.
 
 ## Project Environment
+
+	1- Azure Data Lake Gen2
+	2- Azure SQL DB
+	3- Azure Data Factory
+	4- Azure Synapse Analytics
