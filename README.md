@@ -101,4 +101,5 @@ The external table references the `dirstaging` directory of DataLake Gen2 storag
 - Payroll 2020 transaction data table
 - Payroll 2021 transaction data table
 - Payroll summary data table
+
 ![imagem](images/create-tables-in-sql-database.jpg)
