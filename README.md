@@ -70,3 +70,6 @@ Upload this file (historical data) from the project data to the `dirhistoryfiles
 ![imagem](images/upload-files-in-dirpayrollfiles.jpg)
 
 ![imagem](images/upload-files-in-dirhistoryfiles.jpg)
+
+### 2. Create an Azure Data Factory Resource
+
