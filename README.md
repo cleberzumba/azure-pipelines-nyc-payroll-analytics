@@ -19,6 +19,12 @@ As a Data Engineer, I need to create high-quality data pipelines that are dynami
 
 The source data resides in Azure Data Lake and needs to be processed in a NYC data warehouse. The source datasets consist of CSV files with employee master data and monthly payroll data entered by various city agencies.
 
+![imagem](images/DB-schema.jpg)
+
+I used Azure Data Factory to create Data views in Azure SQL DB from the source data files in DataLake Gen2. Then I built the dataflows and pipelines to create payroll aggregated data that will be exported to a target directory in DataLake Gen2 storage over which Synapse Analytics external table is built. At a high level, my pipeline will look like the one below
+
+![imagem](images/pipeline-overview.jpg)
+
 ## Project Environment
 
 This project was done in the Azure Portal, using several Azure resources, including:
@@ -27,9 +33,3 @@ This project was done in the Azure Portal, using several Azure resources, includ
   - Azure SQL DB
   - Azure Data Factory
   - Azure Synapse Analytics
-
-![imagem](images/DB-schema.jpg)
-
-I used Azure Data Factory to create Data views in Azure SQL DB from the source data files in DataLake Gen2. Then I built the dataflows and pipelines to create payroll aggregated data that will be exported to a target directory in DataLake Gen2 storage over which Synapse Analytics external table is built. At a high level, my pipeline will look like the one below
-
-![imagem](images/pipeline-overview.jpg)
