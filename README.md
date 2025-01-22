@@ -132,3 +132,7 @@ In Azure Data Factory, I created data flow to load 2020 Payroll data from Azure 
 
 
 ## Data Aggregation and Parameterization
+
+In this step, I extracted the 2021 year data and historical data, merge, aggregate and store it in DataLake staging area which will be used by Synapse Analytics external table. The aggregation will be on Agency Name, Fiscal Year and TotalPaid.
+
+![imagem](images/create-aggregate-dataflow-Data-Factory.jpg)
