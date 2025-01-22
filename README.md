@@ -77,3 +77,8 @@ Upload this file (historical data) from the project data to the `dirhistoryfiles
 
 ### 3. Create a SQL Database
 
+![imagem](images/create-sql-database.jpg)
+
+### 4. Create a Synapse Analytics workspace
+
+![imagem](images/create-sunapse-analytics-workspace.jpg)
