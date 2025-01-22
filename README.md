@@ -110,3 +110,7 @@ The external table references the `dirstaging` directory of DataLake Gen2 storag
 1.Create a Linked Service for Azure Data Lake and a Linked Service to SQL Database that has the current (2021) data.
 
 ![imagem](images/create-linked-service.jpg)
+
+
+## Create Datasets in Azure Data Factory
+
