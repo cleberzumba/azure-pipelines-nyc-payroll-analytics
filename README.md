@@ -73,3 +73,4 @@ Upload this file (historical data) from the project data to the `dirhistoryfiles
 
 ### 2. Create an Azure Data Factory Resource
 
+![imagem](images/create-data-factory.jpg)
