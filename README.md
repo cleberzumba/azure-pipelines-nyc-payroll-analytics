@@ -155,3 +155,13 @@ I created a pipeline to load data from Azure DataLake Gen2 storage into SQL Data
 ### 1. Query data in SQL DB summary table (destination table). This is one of the sinks defined in the pipeline.
 
 ![imagem](images/query-from-SQLDB-summary-table.jpg)
+
+
+### 2. Check the dirstaging directory in Datalake if files got created. This is one of the sinks defined in the pipeline
+
+![imagem](images/files-saved-dirstaging.jpg)
+
+
+### 3. Query data in Synapse external table that points to the dirstaging directory in Datalake.
+
+![imagem](images/query-synapse-summary-external-table.jpg)
