@@ -103,3 +103,11 @@ The external table references the `dirstaging` directory of DataLake Gen2 storag
 - Payroll summary data table
 
 ![imagem](images/create-tables-in-sql-database.jpg)
+
+
+## Create Linked Services
+
+1.Create a Linked Service for Azure Data Lake
+
+In Azure Data Factory, I created a linked service to the data lake that contains the data files
+
