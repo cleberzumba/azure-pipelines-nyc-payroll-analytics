@@ -112,9 +112,13 @@ The external table references the `dirstaging` directory of DataLake Gen2 storag
 ![imagem](images/create-linked-service.jpg)
 
 
-## Create the datasets for the 2021 Payroll file on Azure Data Lake Gen2 and for all the data tables in SQL DB
+## Create Datasets in Azure Data Factory
+
+### 1. Create the datasets for the 2021 Payroll file on Azure Data Lake Gen2 and for all the data tables in SQL DB
 
 ![imagem](images/create-datasets-in-azure-data-factory.jpg)
+
+### 2. Create the datasets for destination (target) table in Synapse Analytics
 
 ![imagem](images/dataset-NYC_Payroll_Summary-synapse.jpg)
 
