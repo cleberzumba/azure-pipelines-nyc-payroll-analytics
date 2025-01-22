@@ -25,6 +25,7 @@ I used Azure Data Factory to create Data views in Azure SQL DB from the source d
 
 ![imagem](images/pipeline-overview.jpg)
 
+
 ## Project Environment
 
 This project was done in the Azure Portal, using several Azure resources, including:
@@ -65,3 +66,7 @@ Upload this file (historical data) from the project data to the `dirhistoryfiles
 - nycpayroll_2020.csv
 
 ![imagem](images/create-folders.jpg)
+
+![imagem](images/upload-files-in-dirpayrollfiles.jpg)
+
+![imagem](images/upload-files-in-dirhistoryfiles.jpg)
