@@ -116,5 +116,5 @@ The external table references the `dirstaging` directory of DataLake Gen2 storag
 
 ![imagem](images/create-datasets-in-azure-data-factory.jpg)
 
-![imagem](images/dataset NYC_Payroll_Summary-synapse.jpg)
+![imagem](images/dataset-NYC_Payroll_Summary-synapse.jpg)
 
