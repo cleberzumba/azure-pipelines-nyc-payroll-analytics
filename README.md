@@ -136,3 +136,8 @@ In Azure Data Factory, I created data flow to load 2020 Payroll data from Azure 
 In this step, I extracted the 2021 year data and historical data, merge, aggregate and store it in DataLake staging area which will be used by Synapse Analytics external table. The aggregation will be on Agency Name, Fiscal Year and TotalPaid.
 
 ![imagem](images/create-aggregate-dataflow-Data-Factory.jpg)
+
+
+## Pipeline Creation
+
+I created a pipeline to load data from Azure DataLake Gen2 storage into SQL Database for individual datasets, perform aggregations, and store the summarized results back into the SQL Database target table and Datalake temporary storage directory, which will be consumed by Synapse Analytics via CETAS.
