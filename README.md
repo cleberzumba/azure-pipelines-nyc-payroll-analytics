@@ -114,3 +114,4 @@ The external table references the `dirstaging` directory of DataLake Gen2 storag
 
 ## Create Datasets in Azure Data Factory
 
+![imagem](images/create-datasets-in-azure-data-factory.jpg)
