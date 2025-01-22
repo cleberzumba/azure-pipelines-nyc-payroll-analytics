@@ -88,3 +88,17 @@ Upload this file (historical data) from the project data to the `dirhistoryfiles
 
 ### 5. Create summary data external table in Synapse Analytics workspace
 
+The external table references the `dirstaging` directory of DataLake Gen2 storage for staging payroll summary data.
+
+![imagem](images/create-external-table.jpg)
+
+
+### 6. Create master data tables and payroll transaction tables in SQL DB
+
+- Employee Master Data table
+- Job Title Table
+- Agency Master table
+- Payroll 2020 transaction data table
+- Payroll 2021 transaction data table
+- Payroll summary data table
+![imagem](images/create-tables-in-sql-database.jpg)
