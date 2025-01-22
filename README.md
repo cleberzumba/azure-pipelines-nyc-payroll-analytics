@@ -34,8 +34,34 @@ This project was done in the Azure Portal, using several Azure resources, includ
   - Azure Data Factory
   - Azure Synapse Analytics
 
+
 ## Prepare the Data Infrastructure
 
 ### 1.Create the data lake and upload data
 
+Create an Azure Data Lake Storage Gen2 (storage account) and associated storage container resource
+
 ![imagem](images/create-storage-account.jpg)
+
+![imagem](images/create-container.jpg)
+
+Create three directories in this storage container named
+
+- `dirpayrollfiles`
+- `dirhistoryfiles`
+- `dirstaging`
+
+`dirstaging` will be used by the pipelines we will create as part of the project to store staging data for integration with Azure Synapse.
+
+Upload these files from the project data to the dirpayrollfiles folder
+
+- EmpMaster.csv
+- AgencyMaster.csv
+- TitleMaster.csv
+- nycpayroll_2021.csv
+
+Upload this file (historical data) from the project data to the `dirhistoryfiles` folder
+
+- nycpayroll_2020.csv
+
+![imagem](images/create-folders.jpg)
