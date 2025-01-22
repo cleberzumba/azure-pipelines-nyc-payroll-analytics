@@ -121,7 +121,6 @@ The external table references the `dirstaging` directory of DataLake Gen2 storag
 
 ### 2. Create the datasets for destination (target) table in Synapse Analytics
 
-![imagem](images/dataset-NYC_Payroll_Summary-synapse.jpg)
 
 
 ## Create Data Flows
