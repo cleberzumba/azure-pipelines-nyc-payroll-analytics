@@ -84,3 +84,7 @@ Upload this file (historical data) from the project data to the `dirhistoryfiles
 ### 4. Create a Synapse Analytics workspace
 
 ![imagem](images/create-sunapse-analytics-workspace.jpg)
+
+
+### 5. Create summary data external table in Synapse Analytics workspace
+
