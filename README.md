@@ -123,3 +123,5 @@ The external table references the `dirstaging` directory of DataLake Gen2 storag
 
 ![imagem](images/dataset-NYC_Payroll_Summary-synapse.jpg)
 
+
+## Create Data Flows
