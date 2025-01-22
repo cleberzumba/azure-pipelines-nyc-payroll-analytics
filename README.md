@@ -125,3 +125,7 @@ The external table references the `dirstaging` directory of DataLake Gen2 storag
 
 
 ## Create Data Flows
+
+In Azure Data Factory, I created data flow to load 2020 Payroll data from Azure DataLake Gen2 storage to SQL db table created earlier
+
+![imagem](images/create-Dataflow-and-Pipeline.jpg)
