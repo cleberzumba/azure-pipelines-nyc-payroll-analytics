@@ -141,3 +141,5 @@ In this step, I extracted the 2021 year data and historical data, merge, aggrega
 ## Pipeline Creation
 
 I created a pipeline to load data from Azure DataLake Gen2 storage into SQL Database for individual datasets, perform aggregations, and store the summarized results back into the SQL Database target table and Datalake temporary storage directory, which will be consumed by Synapse Analytics via CETAS.
+
+![imagem](images/create-pipeline-nyc-payroll.jpg)
