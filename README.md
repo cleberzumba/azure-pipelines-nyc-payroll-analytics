@@ -154,4 +154,4 @@ I created a pipeline to load data from Azure DataLake Gen2 storage into SQL Data
 
 ### 1. Query data in SQL DB summary table (destination table). This is one of the sinks defined in the pipeline.
 
-![imagem](images/query from SQL DB summary table.jpg)
+![imagem](images/query-from-SQLDB-summary-table.jpg)
