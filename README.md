@@ -107,7 +107,7 @@ The external table references the `dirstaging` directory of DataLake Gen2 storag
 
 ## Create Linked Services
 
-1.Create a Linked Service for Azure Data Lake and a Linked Service to SQL Database that has the current (2021) data.
+### 1.Create a Linked Service for Azure Data Lake and a Linked Service to SQL Database that has the current (2021) data.
 
 ![imagem](images/create-linked-service.jpg)
 
@@ -117,6 +117,7 @@ The external table references the `dirstaging` directory of DataLake Gen2 storag
 ### 1. Create the datasets for the 2021 Payroll file on Azure Data Lake Gen2 and for all the data tables in SQL DB
 
 ![imagem](images/create-datasets-in-azure-data-factory.jpg)
+
 
 ### 2. Create the datasets for destination (target) table in Synapse Analytics
 
