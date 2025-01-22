@@ -35,3 +35,7 @@ This project was done in the Azure Portal, using several Azure resources, includ
   - Azure Synapse Analytics
 
 ## Prepare the Data Infrastructure
+
+### 1.Create the data lake and upload data
+
+![imagem](images/create-storage-account.jpg)
