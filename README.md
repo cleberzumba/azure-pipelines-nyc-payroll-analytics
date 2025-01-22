@@ -27,3 +27,5 @@ This project was done in the Azure Portal, using several Azure resources, includ
   - Azure SQL DB
   - Azure Data Factory
   - Azure Synapse Analytics
+
+![imagem](images/DB-schema.jpg)
