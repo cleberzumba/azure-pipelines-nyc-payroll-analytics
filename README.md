@@ -13,9 +13,7 @@ New York City would like to develop a data analytics platform on Azure Synapse A
 
 2- Make the data available to the interested public to show how the city’s budget is being spent on salaries and overtime for all city employees.
 
-As a Data Engineer, I need to create high-quality data pipelines that are dynamic, can be automated, and monitored for efficient operation. The project team also includes the city’s quality assurance specialists who will test the pipelines to find any errors and improve the overall data quality.
-
-The source data resides in Azure Data Lake and needs to be processed in a NYC data warehouse. The source datasets consist of CSV files with employee master data and monthly payroll data entered by various city agencies.
+As a Data Engineer, I need to create high-quality data pipelines that are dynamic, can be automated, and monitored for efficient operation. The source data resides in Azure Data Lake and needs to be processed in a NYC data warehouse. The source datasets consist of CSV files with employee master data and monthly payroll data entered by various city agencies.
 
 ![imagem](images/DB-schema.jpg)
 
