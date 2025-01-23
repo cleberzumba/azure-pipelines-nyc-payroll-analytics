@@ -160,3 +160,10 @@ I created a pipeline to load data from Azure DataLake Gen2 storage into SQL Data
 ### 3. Query data in Synapse external table that points to the dirstaging directory in Datalake.
 
 ![imagem](images/query-synapse-summary-external-table.jpg)
+
+
+## Conclusion
+
+The Azure Pipelines NYC Payroll Analytics project demonstrated the power of using cloud tools such as Azure Data Factory and Synapse Analytics to ingest, transform, and analyze data. By integrating technologies such as GitHub for versioning and collaboration, it was possible to create a scalable and well-structured pipeline to process payroll data for the City of New York.
+
+This solution highlights the potential of data analytics to provide valuable insights that can help inform strategic decision-making and optimize resource management.
